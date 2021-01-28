@@ -23,7 +23,7 @@
 
 body {
     padding-top: 50px;
-    background: url(https://michaeldarmanov.github.io/survey_form/img/cube1.jpeg);
+    background: url("https://michaeldarmanov.github.io/survey_form/img/cube1.jpeg");
     background-repeat: no-repeat;
     background-size: 100%;
 }
