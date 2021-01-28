@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <title>Survey Form</title>
+</head>
+
+<body>
+    <div class="top">
+        <!-- title -->
+        <h1 id="title">RUBIK'S CUBE | SURVEY FORM</h1>
+
+        <!-- survey description -->
+        <p id="description"> - we want to know on your experience - </p>
+    </div>
+    <!-- survey form -->
+    <form action="#" id="survey-form">
+
+        <label for="name-label">Name</label><br>
+        <input type="text" id="name" name="name" maxLength="30" required><br>
+
+        <label for="email-label">Email</label><br>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="age-label">Age</label><br>
+        <input type="number" id="age" name="age" min="1" max="120" required><br>
+        <br>
+        <h1>1. Have you ever solved a rubik's cube? (If yes, skip to question 3).</h1>
+        <select name="dropdown" id="dropdown">
+            <option value="" selected="true" disabled="disabled">Press to select</option>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+            <option value="maybe">Almost</option>
+        </select>
+
+        </div>
+        </div>
+        </div>
+        </div>
+        <br>
+        <br>
+
+        <!-- radio buttons -->
+        <h1>2. Are you interested in learning how to solve it?</h1>
+        <input type="radio" id="yes" name="yes" value="yes">
+        <label for="yes">Yes</label><br>
+        <input type="radio" id="no" name="no" value="no">
+        <label for="No">No</label><br>
+        <input type="radio" id="maybe" name="maybe" value="maybe">
+        <label for="maybe">Maybe</label>
+
+        <br><br>
+
+        <!-- checkbox -->
+        <h1>3. How do you learn the best?</h1>
+        <input type="checkbox" id="book" name="book" value="book">
+        <label for="book">From a book</label><br>
+        <input type="checkbox" id="online" name="online" value="online">
+        <label for="online">Online</label><br>
+        <input type="checkbox" id="myself" name="myself" value="myself">
+        <label for="myself"> I like to figure stuff out on my own</label><br>
+        <input type="checkbox" id="all" name="all" value="all">
+        <label for="all">All of the above</label><br>
+
+        <br>
+
+        <!-- text area -->
+        <h1>4. Please share you thoughts and comments:</h1>
+        <label for="textarea"></label>
+        <textarea id="textarea" name="textarea" rows="4" cols="50"></textarea>
+
+        <!-- submit button -->
+        <input type="submit" value="PRESS TO SUBMIT" id="button">
+
+    </form>
+
+</body>
+
+</html>
