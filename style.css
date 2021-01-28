@@ -23,7 +23,7 @@
 
 body {
     padding-top: 50px;
-    background: url(cube1.jpeg);
+    background: url(/img/cube1.jpeg);
     background-repeat: no-repeat;
     background-size: 100%;
 }
